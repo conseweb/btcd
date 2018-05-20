@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcjson_test
+package btcjson
 
 import (
 	"bytes"
@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcjson"
+	"github.com/conseweb/btcd/btcjson"
 )
 
 // TestWalletSvrWsNtfns tests all of the chain server websocket-specific

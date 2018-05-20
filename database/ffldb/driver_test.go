@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package ffldb_test
+package ffldb
 
 import (
 	"fmt"
@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcutil"
+	"github.com/conseweb/btcd/chaincfg"
+	"github.com/conseweb/btcd/database"
+	"github.com/conseweb/btcd/database/ffldb"
+	"github.com/conseweb/btcutil"
 )
 
 // dbType is the database type name for this driver.

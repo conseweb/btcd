@@ -2,14 +2,14 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package database_test
+package database
 
 import (
 	"fmt"
 	"testing"
 
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
+	"github.com/conseweb/btcd/database"
+	_ "github.com/conseweb/btcd/database/ffldb"
 )
 
 var (

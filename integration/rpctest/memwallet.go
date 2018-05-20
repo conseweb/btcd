@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/conseweb/btcd/blockchain"
+	"github.com/conseweb/btcd/btcec"
+	"github.com/conseweb/btcd/chaincfg"
+	"github.com/conseweb/btcd/chaincfg/chainhash"
+	"github.com/conseweb/btcd/rpcclient"
+	"github.com/conseweb/btcd/txscript"
+	"github.com/conseweb/btcd/wire"
+	"github.com/conseweb/btcutil"
+	"github.com/conseweb/btcutil/hdkeychain"
 )
 
 var (

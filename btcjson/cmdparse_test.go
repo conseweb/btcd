@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcjson_test
+package btcjson
 
 import (
 	"encoding/json"
@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcjson"
+	"github.com/conseweb/btcd/btcjson"
 )
 
 // TestAssignField tests the assignField function handles supported combinations

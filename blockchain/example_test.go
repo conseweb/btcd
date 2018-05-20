@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package blockchain_test
+package blockchain
 
 import (
 	"fmt"
@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcutil"
+	"github.com/conseweb/btcd/blockchain"
+	"github.com/conseweb/btcd/chaincfg"
+	"github.com/conseweb/btcd/database"
+	_ "github.com/conseweb/btcd/database/ffldb"
+	"github.com/conseweb/btcutil"
 )
 
 // This example demonstrates how to create a new chain instance and use

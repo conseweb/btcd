@@ -2,14 +2,14 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcjson_test
+package btcjson
 
 import (
 	"reflect"
 	"sort"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcjson"
+	"github.com/conseweb/btcd/btcjson"
 )
 
 // TestUsageFlagStringer tests the stringized output for the UsageFlag type.

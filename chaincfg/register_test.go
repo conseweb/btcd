@@ -1,4 +1,4 @@
-package chaincfg_test
+package chaincfg
 
 import (
 	"bytes"
@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/btcsuite/btcd/chaincfg"
+	. "github.com/conseweb/btcd/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

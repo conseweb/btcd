@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/conseweb/btcd/chaincfg/chainhash"
+	"github.com/conseweb/btcd/txscript"
+	"github.com/conseweb/btcd/wire"
 	"github.com/btcsuite/btclog"
 )
 

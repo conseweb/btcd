@@ -2,13 +2,13 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcjson_test
+package btcjson
 
 import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcjson"
+	"github.com/conseweb/btcd/btcjson"
 )
 
 // This example demonstrates how to create and marshal a command into a JSON-RPC
