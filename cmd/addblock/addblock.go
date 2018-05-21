@@ -13,7 +13,7 @@ import (
 	"github.com/conseweb/btcd/blockchain/indexers"
 	"github.com/conseweb/btcd/database"
 	"github.com/conseweb/btcd/limits"
-	"github.com/btcsuite/btclog"
+	"github.com/conseweb/btclog"
 )
 
 const (

@@ -12,7 +12,7 @@ import (
 	"github.com/conseweb/btcd/chaincfg/chainhash"
 	"github.com/conseweb/btcd/txscript"
 	"github.com/conseweb/btcd/wire"
-	"github.com/btcsuite/btclog"
+	"github.com/conseweb/btclog"
 )
 
 const (

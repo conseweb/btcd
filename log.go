@@ -21,7 +21,7 @@ import (
 	"github.com/conseweb/btcd/netsync"
 	"github.com/conseweb/btcd/peer"
 	"github.com/conseweb/btcd/txscript"
-	"github.com/btcsuite/btclog"
+	"github.com/conseweb/btclog"
 	"github.com/jrick/logrotate/rotator"
 )
 

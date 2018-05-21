@@ -9,7 +9,7 @@ import (
 
 	"github.com/conseweb/btcd/database"
 	"github.com/conseweb/btcd/wire"
-	"github.com/btcsuite/btclog"
+	"github.com/conseweb/btclog"
 )
 
 var log = btclog.Disabled
